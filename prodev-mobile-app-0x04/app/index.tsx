@@ -6,13 +6,13 @@ export default function Index() {
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
         <ImageBackground
-          source={require("@/assets/images/background-image.png")}
+          source={require("@/assets/images/hero-icon.png")}
           style={styles.background}
           resizeMode="cover"
         >
           <View style={styles.container}>
             <View style={styles.companyLogo}>
-              <Image source={require("@/assets/images/Logo.png")} />
+              <Image source={require("@/assets/images/logo.png")} />
             </View>
 
             <View style={styles.textGroup}>
